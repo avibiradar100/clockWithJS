@@ -23,7 +23,7 @@ h1{
     color: red;
     font-family: 'Times New Roman', Times, serif;
     /* border: 2px solid black; */
-    margin: 0px;
+    margin: 10px;
 }
 #hour{
     width: 1.5%;
@@ -84,6 +84,7 @@ h1{
     h1
     {
         font-size:15vw;
+        margin: 30px;
     }
     #clock
     {
