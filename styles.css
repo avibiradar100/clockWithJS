@@ -19,9 +19,11 @@
 
 h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
     color: red;
     font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid black; */
+    margin: 0px;
 }
 #hour{
     width: 1.5%;
@@ -75,4 +77,23 @@ h1{
     font-weight: 800;
     font-size:2vw;
     /* border: 2px solid red; */
+}
+
+@media (max-width:510px) 
+{
+    h1
+    {
+        font-size:15vw;
+    }
+    #clock
+    {
+        margin: auto;
+        height: 100vw;
+        width: 100vw;
+    }
+    #name
+    {
+        font-size: 4vw;
+    }
+    
 }
